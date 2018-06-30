@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	STANDARD CONVERTERS
+    
+    
+ <script type="text/javascript">
+ function func1(){
+ 	x=document.getElementById("kgToPound");
+    c=x.value;
+    d=c*2.2;
+    alert("Your weight in pounds is "+ d);
+    }
+    
+ function func2(){
+ 	x=document.getElementById("PoundToKg");
+    c=x.value;
+    d=c/2.2;
+    alert("Your weight in kilograms is "+ d);
+    }
+    
+  function func3(){
+ 	x=document.getElementById("fahrenheitToCelsius");
+    c=x.value;
+    d=((c-32)*5)/9;
+    alert("Temperature in celsius is "+ d);
+    }
+    
+   function func4(){
+ 	x=document.getElementById("celsiusToFahrenheit");
+    c=x.value;
+    d=((c*1.8)+32);
+    alert("Temperature in fahrenheit is "+ d);
+    }
+    
+   function func5(){
+ 	x=document.getElementById("metreToFoot");
+    c=x.value;
+    d=(c*3.28039);
+    alert("Length in feet is "+ d);
+    }
+    
+   function func6(){
+ 	x=document.getElementById("FootToMetre");
+    c=x.value;
+    d=(c*0.3048);
+    alert("Length in feet is "+ d);
+    }
+    
+    function func7(){
+ 	x=document.getElementById("rupeeToDollar");
+    c=x.value;
+    d=(c*0.015);
+    alert("Value in dollar is "+ d);
+    }
+    
+    function func8(){
+ 	x=document.getElementById("dollarToRupee");
+    c=x.value;
+    d=(c*68.45);
+    alert("Value in Rupees is "+ d);
+    }
+    
+    
+    
+    
+    
+   
+    
+   
+    
+  
+    
+    
+  
+ </script>
+ </head>
+
+<body>
+<hr>
+<label>Enter your weight in kilograms</label>
+<input id="kgToPound" type="text"/>
+<input type="button" value="CONVERT INTO POUNDS" onClick="func1();"/>
+<hr>
+
+<label>Enter your weight in pounds</label>
+<input id="PoundToKg" type="text"/>
+<input type="button" value="CONVERT INTO KILOGRAMS" onClick="func2();"/>
+<hr>
+
+<label>Enter your temperatue in fahrenheit</label>
+<input id="fahrenheitToCelsius" type="text"/>
+<input type="button" value="CONVERT INTO CELSIUS" onClick="func3();"/>
+<hr>
+
+<label>Enter your temperatue in celsius</label>
+<input id="celsiusToFahrenheit" type="text"/>
+<input type="button" value="CONVERT INTO FAHRENHEIT" onClick="func4();"/>
+<hr>
+
+<label>Enter the length in metres</label>
+<input id="metreToFoot" type="text"/>
+<input type="button" value="CONVERT INTO FEET" onClick="func5();"/>
+<hr>
+
+<label>Enter the length in feet</label>
+<input id="FootToMetre" type="text" />
+<input type="button" value="CONVERT INTO METRES" onClick="func6();"/>
+<hr>
+
+<label>Enter value in Rupees</label>
+<input id="rupeeToDollar" type="text" />
+<input type="button" value="CONVERT INTO DOLLAR" onClick="func7();"/>
+<hr>
+
+<label>Enter value in Dollars</label>
+<input id="dollarToRupee" type="text" />
+<input type="button" value="CONVERT INTO RUPEES" onClick="func8();"/>
+<hr>
+
+
+
+
+
+
+</body>
+</html>
